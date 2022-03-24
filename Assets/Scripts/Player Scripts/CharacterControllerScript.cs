@@ -20,6 +20,10 @@ public class CharacterControllerScript : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+
+        Cursor.lockState = CursorLockMode.None;
+        Cursor.visible = true;
+        //
         if(characterController.isGrounded)
         {
             moveDirection = new Vector3(Input.GetAxis("Horizontal"), 0, Input.GetAxis("Vertical"));
