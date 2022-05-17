@@ -15,7 +15,7 @@ C:/Users/georg/Desktop/Unity Projects/DoorwayParadoxes
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-49212
+64197
 Successfully changed project path to: C:/Users/georg/Desktop/Unity Projects/DoorwayParadoxes
 C:/Users/georg/Desktop/Unity Projects/DoorwayParadoxes
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,7 +47,7 @@ C:/Users/georg/Desktop/Unity Projects/DoorwayParadoxes
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Refreshing native plugins compatible for Editor in 124.92 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 132.90 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.2.3f1 (32358a8527b4)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2019.2.11f1/Editor/2021.2.3f1/Editor/Data/Resources/UnitySubsystems
@@ -63,89 +63,89 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2019.2.11f1/Editor/2021.2.3f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2019.2.11f1/Editor/2021.2.3f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2019.2.11f1/Editor/2021.2.3f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56644
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56428
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2019.2.11f1/Editor/2021.2.3f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.012763 seconds.
+Registered in 0.013270 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 127.99 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 124.50 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.786 seconds
+- Completed reload, in  0.787 seconds
 Domain Reload Profiling:
-	ReloadAssembly (787ms)
-		BeginReloadAssembly (89ms)
+	ReloadAssembly (788ms)
+		BeginReloadAssembly (92ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (593ms)
-			LoadAssemblies (85ms)
+		EndReloadAssembly (586ms)
+			LoadAssemblies (88ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (124ms)
+			SetupTypeCache (116ms)
 			ReleaseScriptCaches (0ms)
 			RebuildScriptCaches (31ms)
-			SetupLoadedEditorAssemblies (374ms)
+			SetupLoadedEditorAssemblies (373ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (19ms)
+				InitializePlatformSupportModulesInManaged (20ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (128ms)
+				RefreshPlugins (125ms)
 				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (172ms)
-				ProcessInitializeOnLoadMethodAttributes (54ms)
+				ProcessInitializeOnLoadAttributes (171ms)
+				ProcessInitializeOnLoadMethodAttributes (56ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.012983 seconds.
+Registered in 0.013459 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\Users\georg\Desktop\Unity Projects\DoorwayParadoxes\Library\PackageCache\com.unity.visualscripting@1.7.5\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image C:\Users\georg\Desktop\Unity Projects\DoorwayParadoxes\Library\PackageCache\com.unity.visualscripting@1.7.5\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 129.79 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 128.91 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.411 seconds
+- Completed reload, in  2.331 seconds
 Domain Reload Profiling:
-	ReloadAssembly (2412ms)
-		BeginReloadAssembly (216ms)
+	ReloadAssembly (2331ms)
+		BeginReloadAssembly (203ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (8ms)
+			DisableScriptedObjects (7ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (21ms)
-		EndReloadAssembly (2053ms)
-			LoadAssemblies (113ms)
+		EndReloadAssembly (1989ms)
+			LoadAssemblies (110ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (392ms)
+			SetupTypeCache (354ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (70ms)
-			SetupLoadedEditorAssemblies (1352ms)
+			RebuildScriptCaches (71ms)
+			SetupLoadedEditorAssemblies (1331ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (16ms)
+				InitializePlatformSupportModulesInManaged (14ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (130ms)
-				BeforeProcessingInitializeOnLoad (149ms)
-				ProcessInitializeOnLoadAttributes (956ms)
+				RefreshPlugins (129ms)
+				BeforeProcessingInitializeOnLoad (140ms)
+				ProcessInitializeOnLoadAttributes (945ms)
 				ProcessInitializeOnLoadMethodAttributes (88ms)
-				AfterProcessingInitializeOnLoad (14ms)
+				AfterProcessingInitializeOnLoad (15ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (7ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
-Refreshing native plugins compatible for Editor in 0.98 ms, found 3 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Refreshing native plugins compatible for Editor in 0.88 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4948 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 34 unused Assets / (0.7 MB). Loaded Objects now: 5420.
-Memory consumption went from 209.3 MB to 208.6 MB.
-Total: 5.344800 ms (FindLiveObjects: 0.489500 ms CreateObjectMapping: 0.200700 ms MarkObjects: 4.225700 ms  DeleteObjects: 0.427000 ms)
+Unloading 4951 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 34 unused Assets / (0.7 MB). Loaded Objects now: 5427.
+Memory consumption went from 210.2 MB to 209.5 MB.
+Total: 4.475200 ms (FindLiveObjects: 0.429900 ms CreateObjectMapping: 0.144100 ms MarkObjects: 3.570200 ms  DeleteObjects: 0.329400 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -159,64 +159,182 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 2073.393295 seconds.
-  path: Assets/horse-shoe/source/Horse_Shoe_FBX.fbx
-  artifactKey: Guid(cfd63ae81af888947b11254ce225f540) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/horse-shoe/source/Horse_Shoe_FBX.fbx using Guid(cfd63ae81af888947b11254ce225f540) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f473675ba77c88d9a2f1f6fc90137a03') in 0.246122 seconds 
+  Time since last request: 16064.664325 seconds.
+  path: Assets/Scripts/Audio Scripts/AudioSwitcher.cs
+  artifactKey: Guid(d18c4ba366ebbb344809e2dccd53de2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Audio Scripts/AudioSwitcher.cs using Guid(d18c4ba366ebbb344809e2dccd53de2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24fda991309070fd64543eb49058f288') in 0.049763 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.011814 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\georg\Desktop\Unity Projects\DoorwayParadoxes\Library\PackageCache\com.unity.visualscripting@1.7.5\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\georg\Desktop\Unity Projects\DoorwayParadoxes\Library\PackageCache\com.unity.visualscripting@1.7.5\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.25 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.727 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1728ms)
+		BeginReloadAssembly (182ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (9ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (49ms)
+		EndReloadAssembly (1406ms)
+			LoadAssemblies (110ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (394ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (60ms)
+			SetupLoadedEditorAssemblies (713ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (17ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (133ms)
+				ProcessInitializeOnLoadAttributes (453ms)
+				ProcessInitializeOnLoadMethodAttributes (92ms)
+				AfterProcessingInitializeOnLoad (16ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.98 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4864 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 30 unused Assets / (0.7 MB). Loaded Objects now: 5429.
+Memory consumption went from 202.0 MB to 201.3 MB.
+Total: 4.882000 ms (FindLiveObjects: 0.447200 ms CreateObjectMapping: 0.139200 ms MarkObjects: 3.914000 ms  DeleteObjects: 0.375300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.011178 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\georg\Desktop\Unity Projects\DoorwayParadoxes\Library\PackageCache\com.unity.visualscripting@1.7.5\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\georg\Desktop\Unity Projects\DoorwayParadoxes\Library\PackageCache\com.unity.visualscripting@1.7.5\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.06 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.719 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1720ms)
+		BeginReloadAssembly (167ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (7ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (45ms)
+		EndReloadAssembly (1426ms)
+			LoadAssemblies (121ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (386ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (55ms)
+			SetupLoadedEditorAssemblies (720ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (16ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (122ms)
+				ProcessInitializeOnLoadAttributes (463ms)
+				ProcessInitializeOnLoadMethodAttributes (98ms)
+				AfterProcessingInitializeOnLoad (20ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.98 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4864 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 30 unused Assets / (0.7 MB). Loaded Objects now: 5431.
+Memory consumption went from 202.2 MB to 201.5 MB.
+Total: 5.696300 ms (FindLiveObjects: 0.499200 ms CreateObjectMapping: 0.146700 ms MarkObjects: 4.651000 ms  DeleteObjects: 0.398000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 4.352413 seconds.
-  path: Assets/horse-shoe/textures
-  artifactKey: Guid(f9280ca016a8fd84096e3175debf2e6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/horse-shoe/textures using Guid(f9280ca016a8fd84096e3175debf2e6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b779bc8fa72b24fae84d935a4f72de7') in 0.006772 seconds 
+  Time since last request: 932.235676 seconds.
+  path: Assets/Models & Assets/steppingstones1_ue
+  artifactKey: Guid(5ffae88065be6c84db3324478e18be3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models & Assets/steppingstones1_ue using Guid(5ffae88065be6c84db3324478e18be3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7fb02abd5ca44b9b49a71d1c9d2726fd') in 0.015280 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.040614 seconds.
-  path: Assets/horse-shoe/textures/Horse_Shoe__BaseColor.png
-  artifactKey: Guid(2cc3d4471342f5a4f9f0da6b7c4a815b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/horse-shoe/textures/Horse_Shoe__BaseColor.png using Guid(2cc3d4471342f5a4f9f0da6b7c4a815b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93476b24d46a53c2a2ffbb85e4d3d9bf') in 0.043457 seconds 
+  Time since last request: 0.050900 seconds.
+  path: Assets/Models & Assets/steppingstones1_ue/steppingstones1_albedo.png
+  artifactKey: Guid(cb9319ee16b37e44cb226ec4f1103349) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models & Assets/steppingstones1_ue/steppingstones1_albedo.png using Guid(cb9319ee16b37e44cb226ec4f1103349) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b826049d20066ea727eab03fd077c6f9') in 0.118737 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/horse-shoe/textures/Horse_Shoe_Normal.png
-  artifactKey: Guid(f9359745b74331643b8b77d9d314c3a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/horse-shoe/textures/Horse_Shoe_Normal.png using Guid(f9359745b74331643b8b77d9d314c3a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0f6b851cd64b1b9e66d9ceb4ec39e16') in 0.019174 seconds 
+  Time since last request: 0.000032 seconds.
+  path: Assets/Models & Assets/steppingstones1_ue/steppingstones1_metallic.png
+  artifactKey: Guid(74a10ae46b58d134eb18acacf45a1b8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models & Assets/steppingstones1_ue/steppingstones1_metallic.png using Guid(74a10ae46b58d134eb18acacf45a1b8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '711fe76b32b8916161801a26c78bf115') in 0.017551 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/horse-shoe/textures/Horse_Shoe_Roughness.png
-  artifactKey: Guid(7c90f871d45fe1240808b48dc300dd20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/horse-shoe/textures/Horse_Shoe_Roughness.png using Guid(7c90f871d45fe1240808b48dc300dd20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f6ba170516943b9c1dcfbf95c2087df') in 0.016490 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 18.413768 seconds.
-  path: Assets/Flashlight/Materials/Flashlight_LightOn_mat.mat
-  artifactKey: Guid(b8f438ec6a012d447acdee19e5d4a168) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Flashlight/Materials/Flashlight_LightOn_mat.mat using Guid(b8f438ec6a012d447acdee19e5d4a168) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6327c5055609d6e43a87ec79ae010d04') in 0.138132 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/TextMesh Pro/Fonts/LiberationSans.ttf
-  artifactKey: Guid(e3265ab4bf004d28a9537516768c1c75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TextMesh Pro/Fonts/LiberationSans.ttf using Guid(e3265ab4bf004d28a9537516768c1c75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8074476d270737abf23a275ff1c66b32') in 0.034903 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000040 seconds.
-  path: Assets/LowPolyDungeonsLite/Materials/LowPolyDungeonsLite_Light.mat
-  artifactKey: Guid(2f12fcec4b3dcc0489472b3a9cfa44c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/LowPolyDungeonsLite/Materials/LowPolyDungeonsLite_Light.mat using Guid(2f12fcec4b3dcc0489472b3a9cfa44c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '726881a09138ca280a00bdbefc746e66') in 0.021395 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000088 seconds.
-  path: Assets/LowPolyDungeonsLite/Materials/LowPolyDungeonsLite_MAIN.mat
-  artifactKey: Guid(18f63ff904099034daf971dac5b32582) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/LowPolyDungeonsLite/Materials/LowPolyDungeonsLite_MAIN.mat using Guid(18f63ff904099034daf971dac5b32582) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd367a68b101f42c170e3b4def3326ba9') in 0.029928 seconds 
+  Time since last request: 0.000047 seconds.
+  path: Assets/Models & Assets/steppingstones1_ue/steppingstones1_height.png
+  artifactKey: Guid(0a80af8e4de84c7428c09a7dd4035002) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models & Assets/steppingstones1_ue/steppingstones1_height.png using Guid(0a80af8e4de84c7428c09a7dd4035002) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a7e26b2d9db8acf679a3217d29c0929') in 0.021421 seconds 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000025 seconds.
-  path: Assets/Flashlight/Materials/Grey.mat
-  artifactKey: Guid(ef1f68421eb488c48b137fada2aff299) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Flashlight/Materials/Grey.mat using Guid(ef1f68421eb488c48b137fada2aff299) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f351d47fec88e15ddb0064fb6b82660') in 0.019833 seconds 
+  path: Assets/Models & Assets/steppingstones1_ue/steppingstones1_preview.jpg
+  artifactKey: Guid(96cbbcabc7332004d9301d6e14aa823a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models & Assets/steppingstones1_ue/steppingstones1_preview.jpg using Guid(96cbbcabc7332004d9301d6e14aa823a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '376878bbecad3fd990cd030eb4fe56d8') in 0.021550 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 50.037689 seconds.
+  path: Assets/Models & Assets/hobbit-house-door/source/door_LP/Materials/door_lp_metal_2_BaseColor.mat
+  artifactKey: Guid(241c179aabf04604da973f53ef781a70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models & Assets/hobbit-house-door/source/door_LP/Materials/door_lp_metal_2_BaseColor.mat using Guid(241c179aabf04604da973f53ef781a70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a124c9d4782b4addb0a36fac64051b9e') in 0.103316 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Models & Assets/steppingstones1_ue/Materials/steppingstones1_albedo.mat
+  artifactKey: Guid(2a3bde932b2ab7444a84a7d84cc28f5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models & Assets/steppingstones1_ue/Materials/steppingstones1_albedo.mat using Guid(2a3bde932b2ab7444a84a7d84cc28f5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf983b72d6b4d2d25058433b041815e1') in 0.038002 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.686632 seconds.
+  path: Assets/Models & Assets/hobbit-house-door/source/door_LP/Materials/door_lp_metal_01_AO.mat
+  artifactKey: Guid(36a1ac62aadd8f349a310134fe45b5ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models & Assets/hobbit-house-door/source/door_LP/Materials/door_lp_metal_01_AO.mat using Guid(36a1ac62aadd8f349a310134fe45b5ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1974732bfa0e3f38dfdc678d92222e7') in 0.030466 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Models & Assets/hobbit-house-door/source/door_LP/Materials/door_lp_metal_01_Roughness.mat
+  artifactKey: Guid(246a65d9a0fa13c4682a26ea7f541709) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models & Assets/hobbit-house-door/source/door_LP/Materials/door_lp_metal_01_Roughness.mat using Guid(246a65d9a0fa13c4682a26ea7f541709) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '99f4788e87a6ba648e2d75cb06285ca7') in 0.041858 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 55.173043 seconds.
+  path: Assets/Models & Assets/steppingstones1_ue/Materials/steppingstones1_normal-dx.mat
+  artifactKey: Guid(f490ebbc3a392734fab8f0334b899281) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models & Assets/steppingstones1_ue/Materials/steppingstones1_normal-dx.mat using Guid(f490ebbc3a392734fab8f0334b899281) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9edc10e77cf4a792f474c14a9b14e0ad') in 0.021668 seconds 
 Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
 AssetImportWorker is now disconnected from the server
 Process exiting
