@@ -1,0 +1,16 @@
+newmtl CrashCarB
+Ka 0.5647059 0.5647059 0.5647059
+Kd 0.5647059 0.5647059 0.5647059
+d 1
+Tr 1
+map_Ka CrashCarB.png
+map_Kd CrashCarB.png
+map_d CrashCarB.png
+newmtl Tire
+Ka 0.5647059 0.5647059 0.5647059
+Kd 0.5647059 0.5647059 0.5647059
+d 1
+Tr 1
+map_Ka Tire.png
+map_Kd Tire.png
+map_d Tire.png

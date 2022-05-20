@@ -9,7 +9,6 @@ public class CameraPortal : MonoBehaviour
     //Reference to both portals is needed
     public Transform portal;
     public Transform secondaryPortal;
-
     // Update is called once per frame
     void Update()
     {

@@ -15,7 +15,7 @@ C:/Users/georg/Desktop/Unity Projects/DoorwayParadoxes
 -logFile
 Logs/AssetImportWorker2.log
 -srvPort
-62229
+59260
 Successfully changed project path to: C:/Users/georg/Desktop/Unity Projects/DoorwayParadoxes
 C:/Users/georg/Desktop/Unity Projects/DoorwayParadoxes
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,7 +47,7 @@ C:/Users/georg/Desktop/Unity Projects/DoorwayParadoxes
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Refreshing native plugins compatible for Editor in 139.44 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 129.28 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.2.3f1 (32358a8527b4)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2019.2.11f1/Editor/2021.2.3f1/Editor/Data/Resources/UnitySubsystems
@@ -67,85 +67,85 @@ Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,susp
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2019.2.11f1/Editor/2021.2.3f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.012878 seconds.
+Registered in 0.018169 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 139.13 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 128.49 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.813 seconds
+- Completed reload, in  0.815 seconds
 Domain Reload Profiling:
-	ReloadAssembly (814ms)
+	ReloadAssembly (815ms)
 		BeginReloadAssembly (98ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (613ms)
+		EndReloadAssembly (594ms)
 			LoadAssemblies (94ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (117ms)
+			SetupTypeCache (119ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (33ms)
-			SetupLoadedEditorAssemblies (399ms)
+			RebuildScriptCaches (30ms)
+			SetupLoadedEditorAssemblies (380ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (18ms)
+				InitializePlatformSupportModulesInManaged (19ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (139ms)
-				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (181ms)
-				ProcessInitializeOnLoadMethodAttributes (59ms)
+				RefreshPlugins (129ms)
+				BeforeProcessingInitializeOnLoad (2ms)
+				ProcessInitializeOnLoadAttributes (176ms)
+				ProcessInitializeOnLoadMethodAttributes (55ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.012031 seconds.
+Registered in 0.012412 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\Users\georg\Desktop\Unity Projects\DoorwayParadoxes\Library\PackageCache\com.unity.visualscripting@1.7.5\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image C:\Users\georg\Desktop\Unity Projects\DoorwayParadoxes\Library\PackageCache\com.unity.visualscripting@1.7.5\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 132.87 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 132.93 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.563 seconds
+- Completed reload, in  2.352 seconds
 Domain Reload Profiling:
-	ReloadAssembly (2564ms)
-		BeginReloadAssembly (294ms)
+	ReloadAssembly (2353ms)
+		BeginReloadAssembly (213ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (9ms)
+			DisableScriptedObjects (7ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (32ms)
-		EndReloadAssembly (2111ms)
-			LoadAssemblies (146ms)
+			CreateAndSetChildDomain (24ms)
+		EndReloadAssembly (2010ms)
+			LoadAssemblies (119ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (418ms)
+			SetupTypeCache (349ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (102ms)
-			SetupLoadedEditorAssemblies (1331ms)
+			RebuildScriptCaches (64ms)
+			SetupLoadedEditorAssemblies (1369ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (18ms)
+				InitializePlatformSupportModulesInManaged (14ms)
 				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (133ms)
-				BeforeProcessingInitializeOnLoad (145ms)
-				ProcessInitializeOnLoadAttributes (932ms)
+				BeforeProcessingInitializeOnLoad (156ms)
+				ProcessInitializeOnLoadAttributes (963ms)
 				ProcessInitializeOnLoadMethodAttributes (88ms)
-				AfterProcessingInitializeOnLoad (15ms)
+				AfterProcessingInitializeOnLoad (14ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (7ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
-Refreshing native plugins compatible for Editor in 0.90 ms, found 3 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
+Refreshing native plugins compatible for Editor in 0.95 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 4952 Unused Serialized files (Serialized files now loaded: 0)
 Unloading 34 unused Assets / (0.7 MB). Loaded Objects now: 5429.
 Memory consumption went from 210.4 MB to 209.7 MB.
-Total: 5.016600 ms (FindLiveObjects: 0.459500 ms CreateObjectMapping: 0.143400 ms MarkObjects: 4.052800 ms  DeleteObjects: 0.359200 ms)
+Total: 4.275700 ms (FindLiveObjects: 0.424900 ms CreateObjectMapping: 0.129200 ms MarkObjects: 3.409600 ms  DeleteObjects: 0.310900 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -159,127 +159,85 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 379.766529 seconds.
-  path: Assets/Models & Assets/PBRRiggedSkeletonandBoneCollection/Prefabs/Props
-  artifactKey: Guid(049fd0c167bd66b438b5d1e34de50a31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models & Assets/PBRRiggedSkeletonandBoneCollection/Prefabs/Props using Guid(049fd0c167bd66b438b5d1e34de50a31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b4df3573f5273ceebc42a5118506187') in 0.017388 seconds 
+  Time since last request: 14850.603333 seconds.
+  path: Assets/Models & Assets/Materials/sci-fi-panel1-normal-unity/Materials
+  artifactKey: Guid(0a70f30a5d7caea43966d35a739f986f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models & Assets/Materials/sci-fi-panel1-normal-unity/Materials using Guid(0a70f30a5d7caea43966d35a739f986f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1fd08bb29cf3ebb9718df4f6d27bdb6') in 0.014338 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.047441 seconds.
-  path: Assets/Models & Assets/PBRRiggedSkeletonandBoneCollection/Prefabs/Props/BonePile_LODG_OldBone.prefab
-  artifactKey: Guid(af67626357e121945807aab9616912ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models & Assets/PBRRiggedSkeletonandBoneCollection/Prefabs/Props/BonePile_LODG_OldBone.prefab using Guid(af67626357e121945807aab9616912ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b77af6e39dbba526d142adb8b53d8fc2') in 0.180304 seconds 
+  Time since last request: 0.084055 seconds.
+  path: Assets/Models & Assets/Materials/sci-fi-panel1-normal-unity/Materials/sci-fi-panel1-albedo.mat
+  artifactKey: Guid(2c3c41aed8b36d04dadffa4919c8dcce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models & Assets/Materials/sci-fi-panel1-normal-unity/Materials/sci-fi-panel1-albedo.mat using Guid(2c3c41aed8b36d04dadffa4919c8dcce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '08e53542c44efbdc7e494d081d2520cf') in 0.134988 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 15.378729 seconds.
-  path: Assets/Models & Assets/PBRRiggedSkeletonandBoneCollection/Models
-  artifactKey: Guid(388bb324d1c5368499c469ef271b33a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models & Assets/PBRRiggedSkeletonandBoneCollection/Models using Guid(388bb324d1c5368499c469ef271b33a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4992b8be196ab26359b771b6d4ca249e') in 0.005586 seconds 
+  Time since last request: 62.779235 seconds.
+  path: Assets/Models & Assets/Materials/sci-fi-panel1-normal-unity/New Material.mat
+  artifactKey: Guid(f26377c8ef52c3e4a8ee8e03ffadfd9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models & Assets/Materials/sci-fi-panel1-normal-unity/New Material.mat using Guid(f26377c8ef52c3e4a8ee8e03ffadfd9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fbc5237d30ab2a4680a8f0cfb0322716') in 0.016945 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.071432 seconds.
-  path: Assets/Models & Assets/PBRRiggedSkeletonandBoneCollection/Models/CollarBone_LODG_FBX.fbx
-  artifactKey: Guid(712f9cfe385519e4986ec068b8d50447) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models & Assets/PBRRiggedSkeletonandBoneCollection/Models/CollarBone_LODG_FBX.fbx using Guid(712f9cfe385519e4986ec068b8d50447) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3cfd3d9e1b02f9082f6cdf04ac08849') in 0.174473 seconds 
+  Time since last request: 10.376434 seconds.
+  path: Assets/Models & Assets/Materials/sci-fi-panel1-normal-unity/Materials/sci-fi-panel1-normal-ogl.mat
+  artifactKey: Guid(76c5edf1b77a6ad4bbed143df3090ce5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models & Assets/Materials/sci-fi-panel1-normal-unity/Materials/sci-fi-panel1-normal-ogl.mat using Guid(76c5edf1b77a6ad4bbed143df3090ce5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '893294d3a2cbaac527541a4708596759') in 0.015745 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/Models & Assets/PBRRiggedSkeletonandBoneCollection/Models/Spine_LODG_FBX.fbx
-  artifactKey: Guid(f0d39827ed2d7664c8c3b71412579323) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models & Assets/PBRRiggedSkeletonandBoneCollection/Models/Spine_LODG_FBX.fbx using Guid(f0d39827ed2d7664c8c3b71412579323) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a8825050de5d9c997f9bb06df27a6dd') in 0.111259 seconds 
+  Time since last request: 7.310170 seconds.
+  path: Assets/Models & Assets/Materials/sci-fi-panel1-normal-unity/Materials/sci-fi-panel1-ao.mat
+  artifactKey: Guid(a393bcd41bb7ff14e966d76a35124d88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models & Assets/Materials/sci-fi-panel1-normal-unity/Materials/sci-fi-panel1-ao.mat using Guid(a393bcd41bb7ff14e966d76a35124d88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c035a4f6a38b4afc8afd14c98f970bd') in 0.016491 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000031 seconds.
-  path: Assets/Models & Assets/PBRRiggedSkeletonandBoneCollection/Models/TailBone_LODG_FBX.fbx
-  artifactKey: Guid(58e79cbdaf363d840876c59ea4792282) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models & Assets/PBRRiggedSkeletonandBoneCollection/Models/TailBone_LODG_FBX.fbx using Guid(58e79cbdaf363d840876c59ea4792282) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2bbdf97d178d407c3b1b6b351ed56f6c') in 0.109535 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/Models & Assets/PBRRiggedSkeletonandBoneCollection/Models/Ribcage_LODG_FBX.fbx
-  artifactKey: Guid(e6d28a2c2a9ed754aaa049552b39157c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models & Assets/PBRRiggedSkeletonandBoneCollection/Models/Ribcage_LODG_FBX.fbx using Guid(e6d28a2c2a9ed754aaa049552b39157c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c23e6e8f9d1d8c204f74267e39e0b6d') in 0.105991 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000035 seconds.
-  path: Assets/Models & Assets/PBRRiggedSkeletonandBoneCollection/Models/Humerus_LODG_FBX.fbx
-  artifactKey: Guid(67f8e73030cf96243881ed909d42db3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models & Assets/PBRRiggedSkeletonandBoneCollection/Models/Humerus_LODG_FBX.fbx using Guid(67f8e73030cf96243881ed909d42db3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '012b1e45c2456bd7870f09a795e1f661') in 0.110766 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000038 seconds.
-  path: Assets/Models & Assets/PBRRiggedSkeletonandBoneCollection/Models/Pelvis_LODG_FBX.fbx
-  artifactKey: Guid(4386aef9b12bb81478d3bafad5af5dc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models & Assets/PBRRiggedSkeletonandBoneCollection/Models/Pelvis_LODG_FBX.fbx using Guid(4386aef9b12bb81478d3bafad5af5dc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dcd5a88c0d1d3cd704872bede41b2f00') in 0.092223 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 2.553037 seconds.
-  path: Assets/Models & Assets/PBRRiggedSkeletonandBoneCollection/Materials
-  artifactKey: Guid(e150d51cc5a9a0941bb97cd5fa2eb572) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models & Assets/PBRRiggedSkeletonandBoneCollection/Materials using Guid(e150d51cc5a9a0941bb97cd5fa2eb572) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9941b1ed0c4feb853fc050b288312ac3') in 0.005635 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 2.595421 seconds.
-  path: Assets/Models & Assets/PBRRiggedSkeletonandBoneCollection/Prefabs/FullPosed
-  artifactKey: Guid(59b07c080170a9246a93754943ba8660) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models & Assets/PBRRiggedSkeletonandBoneCollection/Prefabs/FullPosed using Guid(59b07c080170a9246a93754943ba8660) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95acb6a63445d9eacbaf69e3965890f1') in 0.006025 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.058292 seconds.
-  path: Assets/Models & Assets/PBRRiggedSkeletonandBoneCollection/Prefabs/FullPosed/Skeleton_Dead_Laying_LODG_OldBone.prefab
-  artifactKey: Guid(9ecd57122805584469cb80609499192c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models & Assets/PBRRiggedSkeletonandBoneCollection/Prefabs/FullPosed/Skeleton_Dead_Laying_LODG_OldBone.prefab using Guid(9ecd57122805584469cb80609499192c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6a310e314e75ae593173a40755f1d8f') in 0.112762 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000033 seconds.
-  path: Assets/Models & Assets/PBRRiggedSkeletonandBoneCollection/Prefabs/FullPosed/Skeleton_Dead_Sitting_LODG_OldBone.prefab
-  artifactKey: Guid(ec40d70a2b721e4498e733c4aa63a80e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models & Assets/PBRRiggedSkeletonandBoneCollection/Prefabs/FullPosed/Skeleton_Dead_Sitting_LODG_OldBone.prefab using Guid(ec40d70a2b721e4498e733c4aa63a80e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e24c15006dc50fd6cac1670775d4bdda') in 0.076795 seconds 
+  Time since last request: 108.263527 seconds.
+  path: Assets/Models & Assets/Materials/Camera Mat_WorldC.mat
+  artifactKey: Guid(05a13a08b7164ac4fb71c0e83dca75a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models & Assets/Materials/Camera Mat_WorldC.mat using Guid(05a13a08b7164ac4fb71c0e83dca75a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c917001591b7ea75da11261d148f463e') in 0.020662 seconds 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.012266 seconds.
+Registered in 0.011456 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\Users\georg\Desktop\Unity Projects\DoorwayParadoxes\Library\PackageCache\com.unity.visualscripting@1.7.5\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image C:\Users\georg\Desktop\Unity Projects\DoorwayParadoxes\Library\PackageCache\com.unity.visualscripting@1.7.5\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.90 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 1.27 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.612 seconds
+- Completed reload, in  1.906 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1613ms)
-		BeginReloadAssembly (176ms)
+	ReloadAssembly (1907ms)
+		BeginReloadAssembly (193ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (7ms)
+			DisableScriptedObjects (5ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (47ms)
-		EndReloadAssembly (1304ms)
-			LoadAssemblies (106ms)
+			CreateAndSetChildDomain (60ms)
+		EndReloadAssembly (1565ms)
+			LoadAssemblies (118ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (372ms)
+			SetupTypeCache (396ms)
 			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (57ms)
-			SetupLoadedEditorAssemblies (645ms)
+			RebuildScriptCaches (66ms)
+			SetupLoadedEditorAssemblies (836ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (15ms)
+				InitializePlatformSupportModulesInManaged (19ms)
 				SetLoadedEditorAssemblies (1ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (112ms)
-				ProcessInitializeOnLoadAttributes (417ms)
-				ProcessInitializeOnLoadMethodAttributes (82ms)
-				AfterProcessingInitializeOnLoad (18ms)
+				BeforeProcessingInitializeOnLoad (138ms)
+				ProcessInitializeOnLoadAttributes (550ms)
+				ProcessInitializeOnLoadMethodAttributes (109ms)
+				AfterProcessingInitializeOnLoad (17ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (7ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.95 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 1.52 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 4865 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 30 unused Assets / (0.7 MB). Loaded Objects now: 5474.
-Memory consumption went from 219.0 MB to 218.3 MB.
-Total: 4.872900 ms (FindLiveObjects: 0.575800 ms CreateObjectMapping: 0.191800 ms MarkObjects: 3.784400 ms  DeleteObjects: 0.319000 ms)
+Unloading 30 unused Assets / (0.7 MB). Loaded Objects now: 5470.
+Memory consumption went from 206.8 MB to 206.2 MB.
+Total: 6.070100 ms (FindLiveObjects: 0.560600 ms CreateObjectMapping: 0.177800 ms MarkObjects: 4.960300 ms  DeleteObjects: 0.370000 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -291,31 +249,3 @@ AssetImportParameters requested are different than current active one (requested
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 218.566045 seconds.
-  path: Assets/Models & Assets/StylizedHandPaintedDungeon(Free)/Originals
-  artifactKey: Guid(d5294b976d35e52409c2f08d3cc23786) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models & Assets/StylizedHandPaintedDungeon(Free)/Originals using Guid(d5294b976d35e52409c2f08d3cc23786) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec6c26752ee07ad5f018ca1c0e12c233') in 0.013994 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.029422 seconds.
-  path: Assets/Models & Assets/StylizedHandPaintedDungeon(Free)/Originals/Door.fbx
-  artifactKey: Guid(1fed90e8722c1334d9b51e0b56f26e4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models & Assets/StylizedHandPaintedDungeon(Free)/Originals/Door.fbx using Guid(1fed90e8722c1334d9b51e0b56f26e4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8eb9eba09d8e91fc8cedfaa1827ec0a') in 0.111481 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000030 seconds.
-  path: Assets/Models & Assets/StylizedHandPaintedDungeon(Free)/Originals/Pillar.fbx
-  artifactKey: Guid(b520dd2e830b53248a9a07d2d9f3f3dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models & Assets/StylizedHandPaintedDungeon(Free)/Originals/Pillar.fbx using Guid(b520dd2e830b53248a9a07d2d9f3f3dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e84ee9ab61df3e7c046862ef3f51cbb4') in 0.057837 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000037 seconds.
-  path: Assets/Models & Assets/StylizedHandPaintedDungeon(Free)/Originals/Wall_Entrance.fbx
-  artifactKey: Guid(ce8cc834ba277844da67143cfc370fa8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models & Assets/StylizedHandPaintedDungeon(Free)/Originals/Wall_Entrance.fbx using Guid(ce8cc834ba277844da67143cfc370fa8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db6e4b9e704a9e92730190d230237260') in 0.025974 seconds 
-Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
-AssetImportWorker is now disconnected from the server
-Process exiting
-Exiting without the bug reporter. Application will terminate with return code 0
