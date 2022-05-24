@@ -11,12 +11,20 @@ public class CharacterControllerScript : MonoBehaviour
     float timeBetweenStep;
     private Vector3 moveDirection = Vector3.zero;
     public AudioSource footstep;
-
-
-    // Start is called before the first frame update
+    public PlayerData Loading;
+    //
+    private void Awake()
+    {
+        Loading = SaveGame.LoadPlayer();
+    }
+    //
     void Start()
     {
         characterController = GetComponent<CharacterController>();
+        if (Loading != null)
+        {
+            transform.position = new Vector3(Loading.position[0], Loading.position[1], Loading.position[2]);
+        }
     }
 
     // Update is called once per frame

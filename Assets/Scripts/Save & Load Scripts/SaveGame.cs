@@ -46,6 +46,9 @@ public static class SaveGame
             return null;
         }
     }
-
+    public static void Overwrite()
+    {
+        File.Delete(Application.persistentDataPath + ("/player.txt"));
+    }
     
 }

@@ -1,0 +1,295 @@
+Using pre-set license
+Built from '2021.2/staging' branch; Version is '2021.2.3f1 (32358a8527b4) revision 3290506'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10 Home; OS build 19044.1706; Version 2009; 64bit' Language: 'en' Physical Memory: 16306 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2019.2.11f1\Editor\2021.2.3f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker8
+-projectPath
+C:/Users/georg/Desktop/Unity Projects/DoorwayParadoxes
+-logFile
+Logs/AssetImportWorker8.log
+-srvPort
+62804
+Successfully changed project path to: C:/Users/georg/Desktop/Unity Projects/DoorwayParadoxes
+C:/Users/georg/Desktop/Unity Projects/DoorwayParadoxes
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Refreshing native plugins compatible for Editor in 135.26 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.2.3f1 (32358a8527b4)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2019.2.11f1/Editor/2021.2.3f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/georg/Desktop/Unity Projects/DoorwayParadoxes/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1660 Ti (ID=0x2182)
+    Vendor:   NVIDIA
+    VRAM:     5991 MB
+    Driver:   30.0.15.1179
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2019.2.11f1/Editor/2021.2.3f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2019.2.11f1/Editor/2021.2.3f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2019.2.11f1/Editor/2021.2.3f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56584
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2019.2.11f1/Editor/2021.2.3f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.014941 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 143.81 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.804 seconds
+Domain Reload Profiling:
+	ReloadAssembly (804ms)
+		BeginReloadAssembly (95ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (601ms)
+			LoadAssemblies (91ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (114ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (32ms)
+			SetupLoadedEditorAssemblies (391ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (20ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (144ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (172ms)
+				ProcessInitializeOnLoadMethodAttributes (54ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.012123 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\georg\Desktop\Unity Projects\DoorwayParadoxes\Library\PackageCache\com.unity.visualscripting@1.7.5\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\georg\Desktop\Unity Projects\DoorwayParadoxes\Library\PackageCache\com.unity.visualscripting@1.7.5\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 134.88 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.378 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2379ms)
+		BeginReloadAssembly (206ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (7ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (20ms)
+		EndReloadAssembly (2047ms)
+			LoadAssemblies (110ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (402ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (66ms)
+			SetupLoadedEditorAssemblies (1352ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (14ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (135ms)
+				BeforeProcessingInitializeOnLoad (140ms)
+				ProcessInitializeOnLoadAttributes (961ms)
+				ProcessInitializeOnLoadMethodAttributes (88ms)
+				AfterProcessingInitializeOnLoad (14ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
+Refreshing native plugins compatible for Editor in 0.96 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4953 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 34 unused Assets / (0.7 MB). Loaded Objects now: 5430.
+Memory consumption went from 211.7 MB to 211.1 MB.
+Total: 4.438700 ms (FindLiveObjects: 0.426200 ms CreateObjectMapping: 0.138600 ms MarkObjects: 3.531600 ms  DeleteObjects: 0.341300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 22789.383795 seconds.
+  path: Assets/Models & Assets/Forest/EmaceArt/Slavic World Free/Prefabs/Prop/Container
+  artifactKey: Guid(ac8c6914136e9754bba0aca5024c356d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models & Assets/Forest/EmaceArt/Slavic World Free/Prefabs/Prop/Container using Guid(ac8c6914136e9754bba0aca5024c356d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3b3ddb3f1e70adb3a2dbc8811035dc1') in 0.016074 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.039369 seconds.
+  path: Assets/Models & Assets/Forest/EmaceArt/Slavic World Free/Prefabs/Prop/Container/EA03_Prop_Container_Bag_02a_PRE.prefab
+  artifactKey: Guid(d83008bf16dbec848bb3db2bfa781c7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models & Assets/Forest/EmaceArt/Slavic World Free/Prefabs/Prop/Container/EA03_Prop_Container_Bag_02a_PRE.prefab using Guid(d83008bf16dbec848bb3db2bfa781c7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9da3a8aef760fe3c7881f2bc9c34258') in 0.166700 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Models & Assets/Forest/EmaceArt/Slavic World Free/Prefabs/Prop/Container/EA03_Prop_Container_Basket_02_PRE.prefab
+  artifactKey: Guid(3f9afb8cd50cdbb4e809f311e2afed77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models & Assets/Forest/EmaceArt/Slavic World Free/Prefabs/Prop/Container/EA03_Prop_Container_Basket_02_PRE.prefab using Guid(3f9afb8cd50cdbb4e809f311e2afed77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dbc4b553e64c46da3b99ad54602be72e') in 0.022793 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Models & Assets/Forest/EmaceArt/Slavic World Free/Prefabs/Prop/Container/EA03_Prop_Container_Barrel_01d_PRE.prefab
+  artifactKey: Guid(7fa469182d2dc504ebec967a2e6bec53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models & Assets/Forest/EmaceArt/Slavic World Free/Prefabs/Prop/Container/EA03_Prop_Container_Barrel_01d_PRE.prefab using Guid(7fa469182d2dc504ebec967a2e6bec53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a765aac295023e82ec27d07a50d01855') in 0.019592 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Models & Assets/Forest/EmaceArt/Slavic World Free/Prefabs/Prop/Container/EA03_Prop_Container_Crate_01a_PRE.prefab
+  artifactKey: Guid(a45b69c490dc1c84a8fbefd4250434cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models & Assets/Forest/EmaceArt/Slavic World Free/Prefabs/Prop/Container/EA03_Prop_Container_Crate_01a_PRE.prefab using Guid(a45b69c490dc1c84a8fbefd4250434cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c29f362e0ce53adf70b8392aa315bbef') in 0.021059 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Models & Assets/Forest/EmaceArt/Slavic World Free/Prefabs/Prop/Container/EA03_Prop_Container_Crate_03a_PRE.prefab
+  artifactKey: Guid(77eb50ddfa559e749aff11ea1c281580) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models & Assets/Forest/EmaceArt/Slavic World Free/Prefabs/Prop/Container/EA03_Prop_Container_Crate_03a_PRE.prefab using Guid(77eb50ddfa559e749aff11ea1c281580) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09ab2b2913187272dc269fae46cace07') in 0.017590 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 11.778101 seconds.
+  path: Assets/Models & Assets/Forest/EmaceArt/Slavic World Free/Prefabs/Prop/Hunter
+  artifactKey: Guid(8645e5258eb5053438dbe3eb6f2232e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models & Assets/Forest/EmaceArt/Slavic World Free/Prefabs/Prop/Hunter using Guid(8645e5258eb5053438dbe3eb6f2232e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '040bd1fcd65ffc94a8f6f048e7b336a3') in 0.007128 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.045277 seconds.
+  path: Assets/Models & Assets/Forest/EmaceArt/Slavic World Free/Prefabs/Prop/Hunter/EA03_Prop_Town_AnimalSkin_01b_PRE.prefab
+  artifactKey: Guid(ac36a83878e33e54cb3ec90ee13a76db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models & Assets/Forest/EmaceArt/Slavic World Free/Prefabs/Prop/Hunter/EA03_Prop_Town_AnimalSkin_01b_PRE.prefab using Guid(ac36a83878e33e54cb3ec90ee13a76db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '18936ce4859889665c6c67c629fd7998') in 0.020160 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.440811 seconds.
+  path: Assets/Models & Assets/Forest/EmaceArt/Slavic World Free/Prefabs/Prop/Forester
+  artifactKey: Guid(9c15d41d8478e894cac26152779befd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models & Assets/Forest/EmaceArt/Slavic World Free/Prefabs/Prop/Forester using Guid(9c15d41d8478e894cac26152779befd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b0f858baf02cb40d3f325959381dcb9') in 0.006315 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.040037 seconds.
+  path: Assets/Models & Assets/Forest/EmaceArt/Slavic World Free/Prefabs/Prop/Forester/EA03_Prop_Forester_CutOutTrees_03_PRE.prefab
+  artifactKey: Guid(d437dde4e0c296c47bc302794fc84bbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models & Assets/Forest/EmaceArt/Slavic World Free/Prefabs/Prop/Forester/EA03_Prop_Forester_CutOutTrees_03_PRE.prefab using Guid(d437dde4e0c296c47bc302794fc84bbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe907bb435ef0d8ac32f7b973d8f6ffa') in 0.032959 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.535871 seconds.
+  path: Assets/Models & Assets/Forest/EmaceArt/Slavic World Free/Prefabs/Prop/Carpentry
+  artifactKey: Guid(94a67e53e3deaf840b6efabca18cef03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models & Assets/Forest/EmaceArt/Slavic World Free/Prefabs/Prop/Carpentry using Guid(94a67e53e3deaf840b6efabca18cef03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c30a1111a93e7e9a967df9ece058d19') in 0.006264 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.064848 seconds.
+  path: Assets/Models & Assets/Forest/EmaceArt/Slavic World Free/Prefabs/Prop/Carpentry/EA03_Prop_Brushwood_03a_PRE.prefab
+  artifactKey: Guid(1c639f495d926094e8fc0ca59c3ddd38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models & Assets/Forest/EmaceArt/Slavic World Free/Prefabs/Prop/Carpentry/EA03_Prop_Brushwood_03a_PRE.prefab using Guid(1c639f495d926094e8fc0ca59c3ddd38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0bcb7b6d5bf551dfeacb376864cc243c') in 0.019567 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.377130 seconds.
+  path: Assets/Models & Assets/Forest/EmaceArt/Slavic World Free/Prefabs/Prop/wooden
+  artifactKey: Guid(c26fa8953f61cbf43a2a8bf0fd292308) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models & Assets/Forest/EmaceArt/Slavic World Free/Prefabs/Prop/wooden using Guid(c26fa8953f61cbf43a2a8bf0fd292308) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b67c68d735f24506d7babde6d08e863') in 0.006345 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.060512 seconds.
+  path: Assets/Models & Assets/Forest/EmaceArt/Slavic World Free/Prefabs/Prop/wooden/EA03_Wooden_Pin_01a_PRE.prefab
+  artifactKey: Guid(73952e1cfa04b4c4b8752317196d3e09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models & Assets/Forest/EmaceArt/Slavic World Free/Prefabs/Prop/wooden/EA03_Wooden_Pin_01a_PRE.prefab using Guid(73952e1cfa04b4c4b8752317196d3e09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '033e7140b5639ef2c06a0179ff63fd20') in 0.018021 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.295307 seconds.
+  path: Assets/Models & Assets/Forest/EmaceArt/Slavic World Free/Prefabs/Prop/Village
+  artifactKey: Guid(976d666bb4d56e04c8ee22b615297e53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models & Assets/Forest/EmaceArt/Slavic World Free/Prefabs/Prop/Village using Guid(976d666bb4d56e04c8ee22b615297e53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'efb8cc578b798ec4c1f9f122f33c6e77') in 0.002265 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.835897 seconds.
+  path: Assets/Models & Assets/Forest/EmaceArt/Slavic World Free/Prefabs/Prop/Village/EA03_Prop_House_Stove_01b_PRE.prefab
+  artifactKey: Guid(fc43b88d7c139fc4a87fee88ffeaf445) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models & Assets/Forest/EmaceArt/Slavic World Free/Prefabs/Prop/Village/EA03_Prop_House_Stove_01b_PRE.prefab using Guid(fc43b88d7c139fc4a87fee88ffeaf445) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3cb74c59f4fbfb5ca3048204208166f1') in 0.020088 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 33.329939 seconds.
+  path: Assets/Models & Assets/Forest/EmaceArt/Slavic World Free/Prefabs/Items
+  artifactKey: Guid(b68f1dd838057804a8877e6e112c1449) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models & Assets/Forest/EmaceArt/Slavic World Free/Prefabs/Items using Guid(b68f1dd838057804a8877e6e112c1449) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ace0f7c2d72d2b5592c31f484ec2cf4') in 0.007608 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.573742 seconds.
+  path: Assets/Models & Assets/Forest/EmaceArt/Slavic World Free/Prefabs/Items/Food
+  artifactKey: Guid(da7d3d261c7709143a751d5943ae670b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models & Assets/Forest/EmaceArt/Slavic World Free/Prefabs/Items/Food using Guid(da7d3d261c7709143a751d5943ae670b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de3374ac9131071433ab0d85aae79e22') in 0.006369 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.076053 seconds.
+  path: Assets/Models & Assets/Forest/EmaceArt/Slavic World Free/Prefabs/Items/Food/EA03_Items_House_Apple_01c_PRE.prefab
+  artifactKey: Guid(ffbe2a214dd46c74bbaa090886ba87b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models & Assets/Forest/EmaceArt/Slavic World Free/Prefabs/Items/Food/EA03_Items_House_Apple_01c_PRE.prefab using Guid(ffbe2a214dd46c74bbaa090886ba87b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16cda3f9392b8d257bf1e0863338ebb9') in 0.013281 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.729280 seconds.
+  path: Assets/Models & Assets/Forest/EmaceArt/Slavic World Free/Prefabs/Items/House
+  artifactKey: Guid(dceea58c6c8cc89429d90d1653dd4138) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models & Assets/Forest/EmaceArt/Slavic World Free/Prefabs/Items/House using Guid(dceea58c6c8cc89429d90d1653dd4138) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea4d02dd0d92213ce9264bf363949e95') in 0.007069 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.062441 seconds.
+  path: Assets/Models & Assets/Forest/EmaceArt/Slavic World Free/Prefabs/Items/House/EA03_Items_House_Besom_01a_PRE.prefab
+  artifactKey: Guid(3240fa7d641b05642a9fc92670faec26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models & Assets/Forest/EmaceArt/Slavic World Free/Prefabs/Items/House/EA03_Items_House_Besom_01a_PRE.prefab using Guid(3240fa7d641b05642a9fc92670faec26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e795d4613c6ea0663e74f8142accbcde') in 0.019700 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Models & Assets/Forest/EmaceArt/Slavic World Free/Prefabs/Items/House/EA03_Prop_Tool_Basket_01_PRE.prefab
+  artifactKey: Guid(e10fb7bce671a6f4688d4e8966749b03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models & Assets/Forest/EmaceArt/Slavic World Free/Prefabs/Items/House/EA03_Prop_Tool_Basket_01_PRE.prefab using Guid(e10fb7bce671a6f4688d4e8966749b03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5e3a74d18b5dd5f12477b0bd7cca467') in 0.026946 seconds 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0

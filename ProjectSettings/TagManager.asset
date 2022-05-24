@@ -6,6 +6,9 @@ TagManager:
   tags:
   - Magnetic
   - Locked
+  - Key
+  - Torch
+  - Magnet
   layers:
   - Default
   - TransparentFX

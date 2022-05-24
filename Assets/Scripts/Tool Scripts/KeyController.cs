@@ -14,7 +14,7 @@ public class KeyController : MonoBehaviour
             OpenDoor();
         }
     }
-    void OpenDoor()
+    public void OpenDoor()
     {
         RaycastHit unlock;
         if(Physics.Raycast(key.transform.position, key.transform.forward, out unlock, range))
