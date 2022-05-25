@@ -19,4 +19,12 @@ public class SceneChanger : MonoBehaviour
     {
         SceneManager.LoadScene("Main_Game");
     }
+    public void MainMenu()
+    {
+        SceneManager.LoadScene("Main_Menu");
+    }
+    public void Controls()
+    {
+        SceneManager.LoadScene("Controls_Menu");
+    }
 }
