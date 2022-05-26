@@ -20,12 +20,32 @@ public class ItemList : MonoBehaviour
     public int maxCap = 3;
     //Used within the system to point the correct item
     int pointer;
+    //
+    public PlayerData LoadInventory;
     // Start is called before the first frame update
     void Start()
     {
-        //When the level starts it will make sure to have the audio loaded
-        //pickup = GetComponent<AudioSource>();
-        
+        //Runs through the inventory slots to check if the items are contained within the inventory
+        LoadInventory = SaveGame.LoadPlayer();
+        if(LoadInventory.itemSlot[0])
+        {
+            inventoryList.Add(Torch);
+            Torch.SetActive(true);
+            GameObject.FindGameObjectWithTag("Torch").SetActive(false);
+        }
+        if(LoadInventory.itemSlot[1])
+        {
+            inventoryList.Add(Key);
+            Key.SetActive(true);
+            GameObject.FindGameObjectWithTag("Key").SetActive(false);
+        }
+        if(LoadInventory.itemSlot[2])
+        {
+            inventoryList.Add(Magnet);
+            Magnet.SetActive(true);
+            GameObject.FindGameObjectWithTag("Magnet").SetActive(false);
+        }
+
     }
 
     // Update is called once per frame
@@ -129,5 +149,15 @@ public class ItemList : MonoBehaviour
                 InventoryHUD[i].SetActive(false);
             }
         }
+    }
+    public bool[] returnCurrentInventory()
+    {
+        bool[] activeInventory = new bool[3] {false, false, false};
+        for (int i = 0; i < inventoryList.Count; i++)
+        {
+            activeInventory[i] = true;
+        }
+        return activeInventory;
+
     }
 }
